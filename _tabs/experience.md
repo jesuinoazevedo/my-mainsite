@@ -111,3 +111,13 @@ Roles included system administration, SAP implementation, functional specificati
 
 If you'd like a full résumé, a portfolio reference, or a deeper breakdown of work examples — just get in touch.
 
+---
+
+### Download CV
+
+For a concise version of my experience please have a look at my CV:
+
+**[Download CV (PDF)](/assets/files/Jesuino-Azevedo-Solutions-Architect-CV.pdf)**
+
+---
+
