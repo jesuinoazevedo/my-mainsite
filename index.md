@@ -30,6 +30,16 @@ Over the years I’ve helped shape environments where engineering teams communic
 
 ---
 
+## Selected Experience
+
+Some of the environments and initiatives I’ve contributed to include:
+
+- Architecture and engineering leadership across complex infrastructure and software environments  
+- Supporting engineering teams to improve delivery reliability and operational maturity  
+- Collaboration across technology, product, and leadership groups to simplify systems and align decisions  
+
+---
+
 ## What I Focus On
 
 - **Cloud and solution architecture**  
@@ -45,6 +55,17 @@ Over the years I’ve helped shape environments where engineering teams communic
 Clear thinking, calm decision-making, and a preference for **simplicity over unnecessary complexity**.
 
 Good architecture is more than technology — it’s structure, behaviour, alignment, and people. My role is often to help teams **bring clarity to complex environments and create the conditions for steady, confident progress**.
+
+---
+
+## Architecture Principles
+
+A few principles that guide my work:
+
+- **Clarity over complexity** — systems should be understandable by the teams who operate them  
+- **Architecture supports delivery** — good design enables teams to move faster and with confidence  
+- **Technology decisions are organisational decisions** — architecture succeeds when teams align around it  
+- **Pragmatism over perfection** — progress matters more than theoretical elegance  
 
 ---
 
