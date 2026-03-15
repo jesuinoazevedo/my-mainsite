@@ -13,6 +13,7 @@
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+  url: "jesuino.azevedo@gmail.com"
 
 #- type: rss
 #  icon: "fas fa-rss"
