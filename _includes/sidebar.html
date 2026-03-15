@@ -1,0 +1,88 @@
+<!-- The Side Bar -->
+
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+    <a href="/" id="avatar" class="rounded-circle">
+      <img src="/assets/img/image.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+    </a>
+
+    <a class="site-title d-block" href="/">{{ site.title }}</a>
+    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+  </header>
+
+  <nav class="flex-column flex-grow-1 w-100 ps-0">
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="/" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      {% for tab in site.tabs %}
+        <li class="nav-item">
+          <a href="{{ tab.url }}" class="nav-link">
+            <i class="fa-fw {{ tab.icon }}"></i>
+            <span>{{ tab.title }}</span>
+          </a>
+        </li>
+      {% endfor %}
+      {% if site.categories.size > 0 %}
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+            <i class="fa-fw fas fa-stream"></i>
+            <span>Categories</span>
+          </a>
+          <ul class="dropdown-menu">
+            {% for category in site.categories %}
+              <li>
+                <a href="/categories/{{ category[0] | slugify }}/" class="dropdown-item">
+                  {{ category[0] }}
+                  <span class="badge rounded-pill bg-secondary text-light ms-1">{{ category[1].size }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
+      {% if site.tags.size > 0 %}
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+            <i class="fa-fw fas fa-tags"></i>
+            <span>Tags</span>
+          </a>
+          <ul class="dropdown-menu">
+            {% for tag in site.tags %}
+              <li>
+                <a href="/tags/{{ tag[0] | slugify }}/" class="dropdown-item">
+                  {{ tag[0] }}
+                  <span class="badge rounded-pill bg-secondary text-light ms-1">{{ tag[1].size }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+
+  <div class="sidebar-bottom mt-auto d-flex flex-wrap align-items-center w-100">
+    {% for entry in site.data.contact %}
+      {% assign url = entry.url %}
+      {% case entry.type %}
+        {% when 'github' %}
+          {% assign url = 'https://github.com/' | append: url %}
+        {% when 'twitter' %}
+          {% assign url = 'https://twitter.com/' | append: url %}
+        {% when 'linkedin' %}
+          {% assign url = 'https://www.linkedin.com/in/' | append: url %}
+        {% when 'email' %}
+          {% assign url = 'mailto:' | append: url %}
+        {% when 'rss' %}
+          {% assign url = '/feed.xml' %}
+      {% endcase %}
+      <a href="{{ url }}" {% unless entry.noblank %}target="_blank" rel="noopener noreferrer"{% endunless %}>
+        <i class="{{ entry.icon }}"></i>
+      </a>
+    {% endfor %}
+  </div>
+</aside>

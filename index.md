@@ -81,4 +81,4 @@ I’m particularly interested in helping organisations **design resilient platfo
 
 If you're exploring improvements in **technology strategy, architecture clarity, or delivery capability**, I’d be glad to connect.
 
-You can reach me via **LinkedIn or email using the icons on the sidebar**.
+You can reach me via **[LinkedIn](https://www.linkedin.com/in/jesuinoazevedo/)** or **[email](mailto:jesuino.azevedo@gmail.com)** or using the icons on the sidebar.
