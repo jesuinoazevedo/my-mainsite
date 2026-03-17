@@ -48,7 +48,7 @@ While the platform itself is intentionally lightweight, the same principles appl
 
 ## High-Level Architecture
 
-![High-Level Architecture]({{ site.baseurl }}/assets/img/diagram1.jpg)
+![High-Level Architecture](https://jesuinoazevedo.com/assets/img/diagram1.jpg)
 ---
 
 ## Technology Components
