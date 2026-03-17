@@ -48,8 +48,7 @@ While the platform itself is intentionally lightweight, the same principles appl
 
 ## High-Level Architecture
 
-*(Architecture diagrams will appear here to illustrate the platform and publishing workflow.)*
-
+![High-Level Architecture]({{ site.baseurl }}/assets/img/diagram1.jpg)
 ---
 
 ## Technology Components
