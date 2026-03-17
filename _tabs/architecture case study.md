@@ -2,7 +2,7 @@
 layout: page
 title: Architecture Case Study
 subtitle: How This Website Is Built
-icon: fas fa-diagram-project
+icon: fas fa-gears
 order: 3
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Projects
 subtitle: Selected Work & Highlights
 icon: fas fa-diagram-project
-order: 3
+order: 4
 ---
 
 Below is a selection of work that reflects different areas of my experience — from architecture and delivery leadership to infrastructure transformation and strategic technology direction.
