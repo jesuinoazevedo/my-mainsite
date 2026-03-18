@@ -12,7 +12,7 @@ order: 3
 
 When building this personal website, I intentionally chose a **simple but resilient architecture**.
 
-Rather than relying on complex infrastructure, servers, or databases — which often introduce unnecessary operational overhead — I opted to use an **architecture focused on simplicity, but with a good dose of reliability, and security**.
+Rather than relying on complex infrastructure, servers, or databases — which often introduce unnecessary operational overhead — I opted for an approach focused on **simplicity, reliability, and security**.
 
 The design prioritises:
 
@@ -26,37 +26,59 @@ This approach is widely used for **documentation platforms, technical blogs, and
 
 ---
 
-## Reusing This Architecture
+## High-Level Architecture
 
-**The full source code for this website is available on GitHub.**
+<p align="center">
+  <img src="https://jesuinoazevedo.com/assets/img/diagram1.jpg" alt="High-Level Architecture" width="900">
+</p>
 
-Beyond hosting my own site, this project also serves as a **small practical example of architecture thinking applied to a real system**.
+<p align="center"><em>Static website hosted on GitHub Pages and distributed globally via CDN</em></p>
 
-Anyone interested can explore the repository to:
-
-- understand the architectural decisions behind the platform  
-- see how static-site architectures remove operational complexity  
-- reuse the structure for their own site  
-- learn how to publish a website using GitHub Pages  
-
-**Source code:**  
-<https://github.com/xpto2000/my-mainsite>
-
-While the platform itself is intentionally lightweight, the same principles apply to larger systems: **simplicity, resilience, and thoughtful architectural choices**.
+Users access a static website served through GitHub Pages, which handles global distribution via CDN.  
+There are no application servers or databases — only pre-built static content.
 
 ---
 
-## High-Level Architecture
+## Content and Build Structure
 
-![High-Level Architecture](https://jesuinoazevedo.com/assets/img/diagram1.jpg)
+<p align="center">
+  <img src="https://jesuinoazevedo.com/assets/img/diagram3.jpg" alt="Content Structure" width="900">
+</p>
+
+<p align="center"><em>Jekyll transforms structured Markdown content into a static website</em></p>
+
+Content is written in Markdown and organised into pages.  
+During the build process, **Jekyll converts this content into static HTML**, applying layouts and structure.
+
+This allows content to remain simple and maintainable while producing a fully functional website.
+
+---
+
+## Development and Publishing Workflow
+
+<p align="center">
+  <img src="https://jesuinoazevedo.com/assets/img/diagram2.jpg" alt="Publishing Workflow" width="900">
+</p>
+
+<p align="center"><em>Local development, Git-based versioning, and automated deployment via GitHub Pages</em></p>
+
+The workflow is intentionally simple:
+
+- The site can be run locally using Jekyll for preview and validation  
+- Changes are committed and pushed to GitHub  
+- **GitHub Pages runs the Jekyll build process automatically**  
+- Static files are generated and deployed to the live site  
+
+At runtime, there is no Jekyll involved — only static files served to users.
+
 ---
 
 ## Technology Components
 
-The site is built using a small set of well-established technologies:
+The platform relies on a small set of well-established technologies:
 
-- **Jekyll** – static site generator  
-- **GitHub Pages** – hosting and global CDN  
+- **Jekyll** – static site generator (used during build)  
+- **GitHub Pages** – hosting, build pipeline, and CDN  
 - **GitHub** – source control and publishing workflow  
 - **Markdown** – content authoring  
 - **HTML / CSS** – presentation layer  
@@ -65,31 +87,39 @@ Together these components form a **simple and robust platform with no servers to
 
 ---
 
-## Development Workflow
+## Why This Architecture Works Well
 
-The site can be run **locally during development**, allowing changes to be tested before publishing.
+This model provides several advantages:
 
-Once changes are committed and pushed to the GitHub repository, **GitHub Pages automatically rebuilds and publishes the updated site**.
+**Security**  
+No running application servers, databases, or APIs significantly reduce the attack surface.
 
-This keeps the workflow simple while ensuring updates can be safely validated before going live.
+**Reliability**  
+GitHub Pages distributes the site globally via CDN.
+
+**Operational Simplicity**  
+Publishing is Git-based — no deployments or infrastructure management required.
+
+**Cost Efficiency**  
+The platform operates with **zero hosting cost**.
 
 ---
 
-## Why This Architecture Works Well
+## Reusing This Architecture
 
-This model offers several advantages:
+**The full source code for this website is available on GitHub.**
 
-**Security**  
-No application servers, databases, or exposed APIs significantly reduce the attack surface.
+This project also serves as a **practical example of applying architectural thinking to a real system**, even at a small scale.
 
-**Reliability**  
-GitHub Pages distributes the site globally through a CDN.
+You can explore the repository to:
 
-**Operational Simplicity**  
-Publishing is done through Git — no deployments or server management required.
+- understand the architectural decisions  
+- see how static-site architectures remove operational complexity  
+- reuse the structure for your own site  
+- learn how to publish using GitHub Pages  
 
-**Cost Efficiency**  
-The entire platform operates with **zero hosting cost**.
+**Source code:**  
+<https://github.com/xpto2000/my-mainsite>
 
 ---
 
@@ -97,7 +127,7 @@ The entire platform operates with **zero hosting cost**.
 
 Sometimes the best architecture is the **simplest one that fits the problem well**.
 
-Although much of my career has involved working with large and complex enterprise environments, I still enjoy examples like this. Building a small, clean solution that is **fit for purpose** reflects what good architecture should aim for.
+Although much of my career has involved working with large and complex enterprise environments, I still enjoy examples like this. Building a small solution that is **clean, resilient, and fit for purpose** reflects what good architecture should aim for.
 
 Regardless of scale, systems benefit from **clear thinking, pragmatic design, and thoughtful architectural decisions**.
 
@@ -105,7 +135,7 @@ Regardless of scale, systems benefit from **clear thinking, pragmatic design, an
 
 ## Let’s Connect
 
-If you are interested in discussing **architecture, platform design, or technology strategy**, or just want more details on how to do the same for your personal site, feel free to connect.
+If you are interested in discussing **architecture, platform design, or technology strategy**, feel free to connect.
 
 - **LinkedIn:**  
   <https://www.linkedin.com/in/jesuinoazevedo/>
