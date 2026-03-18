@@ -29,9 +29,8 @@ This approach is widely used for **documentation platforms, technical blogs, and
 ## High-Level Architecture
 
 <p align="center">
-  <img src="https://jesuinoazevedo.com/assets/img/diagram1.jpg" alt="High-Level Architecture" width="900">
+  <img src="/assets/img/diagram1.jpg" alt="High-Level Architecture" width="800">
 </p>
-
 <p align="center"><em>Static website hosted on GitHub Pages and distributed globally via CDN</em></p>
 
 Users access a static website served through GitHub Pages, which handles global distribution via CDN.  
@@ -42,10 +41,9 @@ There are no application servers or databases — only pre-built static content.
 ## Content and Build Structure
 
 <p align="center">
-  <img src="https://jesuinoazevedo.com/assets/img/diagram3.jpg" alt="Content Structure" width="900">
+  <img src="/assets/img/diagram3.jpg" alt="Content Structure" style="max-height:50px; width:auto;">
 </p>
-
-<p align="center"><em>Jekyll transforms structured Markdown content into a static website</em></p>
+<p align="center"><em>Jekyll transforms Markdown into static HTML</em></p>
 
 Content is written in Markdown and organised into pages.  
 During the build process, **Jekyll converts this content into static HTML**, applying layouts and structure.
@@ -57,10 +55,9 @@ This allows content to remain simple and maintainable while producing a fully fu
 ## Development and Publishing Workflow
 
 <p align="center">
-  <img src="https://jesuinoazevedo.com/assets/img/diagram2.jpg" alt="Publishing Workflow" width="900">
+  <img src="/assets/img/diagram2.jpg" alt="Publishing Workflow" style="max-height:500px; width:auto;">
 </p>
-
-<p align="center"><em>Local development, Git-based versioning, and automated deployment via GitHub Pages</em></p>
+<p align="center"><em>Local development, Git-based versioning, and automated deployment</em></p>
 
 The workflow is intentionally simple:
 
