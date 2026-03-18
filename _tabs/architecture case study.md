@@ -40,10 +40,10 @@ There are no application servers or databases — only pre-built static content.
 
 ## Content and Build Structure
 
-<p align="center">
-  <img src="/assets/img/diagram3.jpg" alt="Content Structure" style="max-height:50px; width:auto;">
-</p>
-<p align="center"><em>Jekyll transforms Markdown into static HTML</em></p>
+<div style="text-align:center; margin: 20px 0;">
+  <img src="/assets/img/diagram3.jpg" alt="Content Structure" style="max-height:400px; width:auto; display:block; margin:0 auto;">
+  <p style="margin-top:10px; color:gray;"><em>Jekyll transforms Markdown into static HTML</em></p>
+</div>
 
 Content is written in Markdown and organised into pages.  
 During the build process, **Jekyll converts this content into static HTML**, applying layouts and structure.
@@ -54,10 +54,10 @@ This allows content to remain simple and maintainable while producing a fully fu
 
 ## Development and Publishing Workflow
 
-<p align="center">
-  <img src="/assets/img/diagram2.jpg" alt="Publishing Workflow" style="max-height:500px; width:auto;">
-</p>
-<p align="center"><em>Local development, Git-based versioning, and automated deployment</em></p>
+<div style="text-align:center; margin: 20px 0;">
+  <img src="/assets/img/diagram2.jpg" alt="Publishing Workflow" style="max-height:500px; width:auto; display:block; margin:0 auto;">
+  <p style="margin-top:10px; color:gray;"><em>Local development, Git-based versioning, and automated deployment</em></p>
+</div>
 
 The workflow is intentionally simple:
 
