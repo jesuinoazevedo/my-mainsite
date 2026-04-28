@@ -3,7 +3,7 @@ layout: page
 title: Beyond Work
 subtitle: Interests & Personal Projects
 icon: fas fa-compass
-order: 5
+order: 6
 ---
 
 Technology is a big part of my life — but not the only part.
