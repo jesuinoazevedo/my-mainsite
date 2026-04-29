@@ -7,11 +7,13 @@ order: 5
 ---
 
 A place for experiments, simulations, and things I build for fun.
-<p>
+
+All the code is offer for free
   <a href="https://github.com/xpto2000/" target="_blank">
-  You can see and download for free the code of these projects at my GitHub page
-    </a>
-</p>
+ at my GitHub page.
+  </a>
+feel free to download, comment and suggest improvements.
+
 ## Free time projects
 
 - [Orbital Flight Sim](/orbital-flight-sim/) - Testing some physics 
