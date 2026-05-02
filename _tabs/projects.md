@@ -31,7 +31,7 @@ The system processes real-world financial CSV exports, uses a **language model a
   <figure style="max-width: 420px; margin: 0;">
     <img src="/assets/img/projects/ai-finance-agent-nz-dashboard.png"
          alt="AI Finance Agent NZ dashboard screenshot"
-         style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+         style="width: 130%; border-radius: 8px; border: 1px solid #ddd;">
     <figcaption style="font-size: 0.9em; margin-top: 6px;">
       Dashboard showing income and spending breakdowns.
     </figcaption>
@@ -40,7 +40,7 @@ The system processes real-world financial CSV exports, uses a **language model a
   <figure style="max-width: 420px; margin: 0;">
     <img src="/assets/img/projects/ai-finance-agent-nz-summary.png"
          alt="AI Finance Agent NZ financial summary screenshot"
-         style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+         style="width: 130%; border-radius: 8px; border: 1px solid #ddd;">
     <figcaption style="font-size: 0.9em; margin-top: 6px;">
       AI-generated financial summary and coaching insights.
     </figcaption>
