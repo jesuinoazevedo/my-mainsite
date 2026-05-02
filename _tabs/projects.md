@@ -25,6 +25,27 @@ The system processes real-world financial CSV exports, uses a **language model a
 
 **Why it matters:** This project demonstrates applied AI engineering, real data pipeline design, LLM prompt architecture, and end-to-end product deployment — built entirely independently during a sabbatical to maintain and extend technical currency.
 
+### Screenshots
+
+<div style="margin: 1.5em 0; display: flex; gap: 16px; flex-wrap: wrap;">
+  <figure style="max-width: 420px; margin: 0;">
+    <img src="/assets/img/projects/ai-finance-agent-nz-dashboard.png"
+         alt="AI Finance Agent NZ dashboard screenshot"
+         style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <figcaption style="font-size: 0.9em; margin-top: 6px;">
+      Dashboard showing income and spending breakdowns.
+    </figcaption>
+  </figure>
+
+  <figure style="max-width: 420px; margin: 0;">
+    <img src="/assets/img/projects/ai-finance-agent-nz-summary.png"
+         alt="AI Finance Agent NZ financial summary screenshot"
+         style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <figcaption style="font-size: 0.9em; margin-top: 6px;">
+      AI-generated financial summary and coaching insights.
+    </figcaption>
+  </figure>
+</div>
 **Tech stack:** Python · CrewAI · Groq LLM (LLaMA) · Pandas · Streamlit · Plotly · Streamlit Cloud
 
 <div style="margin: 1.5em 0; display: flex; gap: 14px; flex-wrap: wrap;">
