@@ -11,8 +11,8 @@ order: 2
 
 I took a deliberate break after 20 years of sustained delivery. I travelled across Latin America and beyond, stayed hands-on with AI engineering, and shipped two production apps.
 
-- Built and deployed a working [ RAG Document Assistant ](/projects/#-ai-rag-document-assistant) using OpenAI and Anthropic APIs, Qdrant vector search, and Streamlit Cloud. Covers ingestion, embeddings, retrieval, and grounded generation. Not just reading about it. 
-- Built and deployed a functional [AI Finance Agent](https://jesuinoazevedo.com/projects/#-ai-finance-agent-nz) using CrewAI, Groq LLM, Pandas, and Streamlit. End-to-end AI pipeline. Real data, real outputs.
+- Built and deployed a working [ RAG Document Assistant ](/projects/#-ai-rag-document-assistant) using OpenAI and Anthropic APIs, Qdrant vector search, and Streamlit Cloud. Covers ingestion, embeddings, retrieval, and grounded generation. 
+- Built and deployed a functional [AI Finance Agent](https://jesuinoazevedo.com/projects/#-ai-finance-agent-nz) using CrewAI, Groq LLM, Pandas, and Streamlit. End-to-end AI pipeline.
 - Ad-hoc advisory to early-stage ventures on cloud architecture and MVP platform design (AWS, microservices).
 - Built and maintain this site using Jekyll and GitHub Pages. Code at github.com/xpto2000.
 
