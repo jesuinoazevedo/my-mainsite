@@ -6,24 +6,42 @@ icon: fas fa-diagram-project
 order: 3
 ---
 
-A selection of work spanning enterprise architecture, technology transformation, and applied AI engineering.
+A mix of hands-on AI builds and enterprise architecture work. I use these projects to stay current, test ideas properly, and apply the same thinking I use in large programmes at a smaller scale.
 
 ---
+
+## 🧠 Ask questions from real documents
+
+Ask questions directly against trusted documents. No manual searching.
+
+Use a curated Reserve Bank of New Zealand dataset, or upload your own PDFs. The assistant retrieves relevant content and answers with sources.
+
+<div style="margin: 1.4em 0;">
+  <a href="https://ai-rag-document-assistant.streamlit.app/" target="_blank"
+     style="background: #1a73e8; color: white; padding: 10px 22px; border-radius: 6px; text-decoration: none; font-weight: bold;">
+    🚀 Try the AI RAG Document Assistant
+  </a>
+</div>
+
+---
+
 ## 🤖 AI RAG Document Assistant
-**Personal Project · 2025-2026**
+**Personal Project · 2025–2026**
 
-A production-ready Retrieval-Augmented Generation (RAG) application that allows users to ask questions grounded in real documents, either a curated Reserve Bank of New Zealand dataset or their own uploaded PDFs.
+Built a Retrieval-Augmented Generation (RAG) application to turn document sets into a usable knowledge interface.
 
-The system combines semantic search with large language models to provide contextual, source-backed answers, transforming static documents into an interactive knowledge interface.
+It combines vector search with LLMs to answer questions using real content, not guesses. Supports a shared base dataset and user uploads, with isolation between datasets.
 
 **What it does:**
-- Queries a curated **Reserve Bank of New Zealand document set**
-- Allows users to upload and analyse their own PDFs
-- Uses vector search (Qdrant) to retrieve relevant context
-- Generates grounded answers with source attribution
-- Enforces usage limits to control cost during MVP phase
+- Queries a curated Reserve Bank of New Zealand document set  
+- Allows users to upload and analyse their own PDFs  
+- Uses Qdrant for vector search and retrieval  
+- Generates answers grounded in document context  
+- Separates datasets by workspace  
+- Applies usage limits to control cost during MVP testing  
 
-**Why it matters:** This project demonstrates applied AI engineering beyond experimentation, including vector database integration, prompt design, multi-tenant data isolation, and cost-aware deployment of LLM systems.
+**Why it matters:**  
+This is applied AI engineering. Ingestion, embeddings, retrieval, prompting, and deployment all working together. Not just reading about it.
 
 ### Screenshot
 
@@ -31,7 +49,7 @@ The system combines semantic search with large language models to provide contex
      alt="AI RAG Document Assistant screenshot"
      style="width: 75%; border-radius: 8px; border: 1px solid #ddd; margin: 12px 0;">
 
-**Tech stack:** Python · Streamlit · Qdrant · OpenAI · Anthropic · Docker · Streamlit Cloud
+**Tech stack:** Python, Streamlit, Qdrant, OpenAI, Anthropic, Docker, Streamlit Cloud
 
 <div style="margin: 1.2em 0;">
   <a href="https://ai-rag-document-assistant.streamlit.app/" target="_blank"
@@ -45,17 +63,18 @@ The system combines semantic search with large language models to provide contex
 ## 🤖 AI Finance Agent NZ
 **Personal Project · 2024–2025**
 
-Built an end-to-end AI-powered personal finance tool designed for New Zealand bank data.
+Built an AI-driven personal finance tool for New Zealand bank data.
 
-The system processes real-world financial CSV exports, uses a **language model agent** to classify transactions intelligently, and generates plain-English financial insights, replacing manual spreadsheet analysis with an adaptive, AI-driven approach.
+It takes raw CSV exports, classifies transactions using an agent, and produces a usable financial summary. Replaces manual spreadsheet work with something far more adaptive.
 
 **What it does:**
-- Ingests and normalises CSV exports from any NZ bank format
-- Uses a CrewAI **Financial Data Analyst agent** to categorise transactions automatically
-- Visualises income vs. spending breakdowns with interactive Plotly charts
-- Generates a practical financial summary via a **Financial Coach agent**
+- Ingests and normalises CSV exports from NZ banks  
+- Uses a CrewAI agent to categorise transactions  
+- Visualises income and spending with Plotly  
+- Generates a plain-English financial summary  
 
-**Why it matters:** This project demonstrates applied AI engineering, real data pipeline design, LLM prompt architecture, and end-to-end product deployment, built entirely independently during a sabbatical to maintain and extend technical currency.
+**Why it matters:**  
+End-to-end AI pipeline. Real data, real outputs. Same patterns used in enterprise, just at a different scale.
 
 ### Screenshots
 
@@ -65,7 +84,7 @@ The system processes real-world financial CSV exports, uses a **language model a
          alt="AI Finance Agent NZ dashboard screenshot"
          style="width: 130%; border-radius: 8px; border: 1px solid #ddd;">
     <figcaption style="font-size: 0.9em; margin-top: 6px;">
-      Dashboard showing income and spending breakdowns.
+      Income and spending breakdown.
     </figcaption>
   </figure>
 
@@ -74,11 +93,12 @@ The system processes real-world financial CSV exports, uses a **language model a
          alt="AI Finance Agent NZ financial summary screenshot"
          style="width: 130%; border-radius: 8px; border: 1px solid #ddd;">
     <figcaption style="font-size: 0.9em; margin-top: 6px;">
-      AI-generated financial summary and coaching insights.
+      AI-generated summary and insights.
     </figcaption>
   </figure>
 </div>
-**Tech stack:** Python · CrewAI · Groq LLM (LLaMA) · Pandas · Streamlit · Plotly · Streamlit Cloud
+
+**Tech stack:** Python, CrewAI, Groq LLM, Pandas, Streamlit, Plotly
 
 <div style="margin: 1.5em 0; display: flex; gap: 14px; flex-wrap: wrap;">
   <a href="https://ai-finance-agent-nz.streamlit.app/" target="_blank"
@@ -87,36 +107,37 @@ The system processes real-world financial CSV exports, uses a **language model a
   </a>
   <a href="https://github.com/xpto2000/" target="_blank"
      style="background: #333; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
-    📁 GitHub Repo
+    📁 GitHub
   </a>
 </div>
 
 ---
 
 ## 🛰️ Orbital Flight Dynamics Simulator
+**Personal Project · Playground**
 
-A browser-based high-fidelity physics simulation modelling rocket ascent through atmospheric and orbital phases.
+Built a browser-based physics simulator modelling rocket ascent.
 
-The simulator demonstrates deterministic physics modelling combined with real-time telemetry visualisation, providing an interactive environment to explore aerospace dynamics.
+It runs a deterministic integration loop and visualises telemetry in real time. You can tweak parameters and see the impact immediately.
 
 **What it does:**
-- Simulates vertical ascent using a 60Hz Newtonian integration loop
-- Models fuel burn and mass reduction using **Specific Impulse (Isp)**
-- Calculates aerodynamic drag using the standard drag equation with atmospheric density decay
-- Validates **Thrust-to-Weight Ratio (TWR)** before launch
-- Tracks key milestones such as **Max-Q** and the **Kármán line**
-- Displays real-time telemetry using high-performance canvas rendering
+- Simulates ascent using a 60Hz Newtonian loop  
+- Models fuel burn using specific impulse  
+- Calculates drag with atmospheric density decay  
+- Validates thrust-to-weight ratio before launch  
+- Tracks milestones like Max-Q and the Kármán line  
+- Renders telemetry using HTML5 Canvas  
 
-**Why it matters:** This project highlights strong fundamentals in physics modelling, simulation design, and performance-oriented front-end engineering — demonstrating the ability to translate complex mathematical systems into interactive, real-time applications.
-
+**Why it matters:**  
+Shows core engineering fundamentals. Physics, modelling, and performance. Different domain, same discipline.
 
 ### Screenshot
 
 <img src="/assets/img/projects/orbital-flight-sim.png"
-     alt="AI RAG Document Assistant screenshot"
+     alt="Orbital Flight Dynamics Simulator screenshot"
      style="width: 75%; border-radius: 8px; border: 1px solid #ddd; margin: 12px 0;">
 
-**Tech stack:** JavaScript · HTML5 Canvas · Physics simulation · Real-time data visualisation
+**Tech stack:** JavaScript, HTML5 Canvas, physics simulation
 
 <div style="margin: 1.2em 0;">
   <a href="/orbital-flight-sim/" target="_blank"
@@ -127,50 +148,48 @@ The simulator demonstrates deterministic physics modelling combined with real-ti
 
 ---
 
-## Professional Projects 
+## Professional Projects
 
 ## ⚡ Vector – Alphabet X Energy Platform
 **Solutions Architecture Lead · 2021–2023**
 
-Architected and guided digital platform capabilities for a cutting-edge energy innovation programme in partnership with Google's Alphabet X division.
+Led architecture for a digital platform supporting an energy innovation programme with Alphabet X.
 
-- Defined the **architecture runway** and critical non-functional requirements (security, resilience, scalability) for New Zealand's electricity digital twin platform
-- Designed scalable integration patterns and platform strategy for next-generation energy systems
-- Led architecture governance across multi-million-dollar delivery streams
-- Bridged business, engineering, and risk stakeholders across a complex multi-party programme
+- Defined architecture runway and non-functional requirements  
+- Designed integration patterns and platform strategy  
+- Led architecture governance across delivery streams  
+- Worked across business, engineering, and risk  
 
 ---
 
 ## 🔧 Infrastructure Resilience & Modernisation
 **Multiple Programmes · 2015–2020**
 
-Led and designed programmes improving reliability, scalability, and long-term operational posture across network, compute, and cloud environments.
+Led programmes improving reliability and operational posture across infrastructure.
 
-Key deliveries:
-- Enterprise SAN transformation ($500k+)
-- Security uplift and UTM platform refresh ($1M+)
-- Redundant network redesign removing critical legacy dependencies
-- Resilience upgrades increasing uptime and delivering $2M+ annual OPEX savings
+- Delivered enterprise SAN transformation  
+- Led security uplift and UTM refresh  
+- Redesigned network to remove legacy dependencies  
+- Delivered resilience improvements and cost savings  
 
 ---
 
 ## 🚀 Delivery Transformation & Ways of Working
 
-Designed and implemented technology transformation roadmaps, DevOps practices, and operating models aligned to business strategy.
+Designed and implemented delivery and operating model changes.
 
-Outcomes:
-- ~30% cost optimisation without reducing capability or performance
-- Faster delivery cycles with stronger stakeholder alignment
-- Improved engineering autonomy and operational visibility
+- Reduced cost without reducing capability  
+- Improved delivery speed and alignment  
+- Increased engineering autonomy  
 
 ---
 
 ## 🧪 Early-Stage Architecture & Startup Advisory
 **2023–Present**
 
-Working with startups and small teams to shape early architecture choices, cloud patterns, and delivery foundations — enabling MVP progress without creating long-term technical debt.
+Working with small teams on early architecture decisions.
 
-Areas covered: AWS, microservices, API design, platform framing, and product architecture.
+Focus on getting to MVP without creating future problems.
 
 ---
 
