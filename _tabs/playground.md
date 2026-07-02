@@ -9,7 +9,7 @@ order: 5
 A place for experiments, simulations, and things I build for fun.
 
 All the code is offered for free
-  <a href="https://github.com/xpto2000/" target="_blank">
+  <a href="https://github.com/jesuinoazevedo/" target="_blank">
  at my GitHub page.
   </a>
 feel free to download, comment and suggest improvements.
