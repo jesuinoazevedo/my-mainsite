@@ -105,7 +105,7 @@ End-to-end AI pipeline. Real data, real outputs. Same patterns used in enterpris
      style="background: #1a73e8; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
     🚀 Live Demo
   </a>
-  <a href="https://github.com/xpto2000/" target="_blank"
+  <a href="https://github.com/jesuinoazevedo/" target="_blank"
      style="background: #333; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
     📁 GitHub
   </a>
