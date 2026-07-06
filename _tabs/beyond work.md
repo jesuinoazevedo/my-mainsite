@@ -40,7 +40,7 @@ Recently focused on: architecture tooling, modern cloud design approaches, leade
 ### 🛠️ Things I Build for Fun
 
 I occasionally build small tools, calculators, and simulations — mostly to scratch a technical itch or try something new.
-All code is open and available at my [GitHub page](https://github.com/xpto2000/){:target="_blank"} — feel free to use, comment, or suggest improvements.
+All code is open and available at my [GitHub page](https://github.com/jesuinoazevedo/){:target="_blank"} — feel free to use, comment, or suggest improvements.
 
 | Project | What it is |
 |---------|-----------|

@@ -16,10 +16,12 @@ timezone:
 
 title: Jesuino Azevedo # the main title
 
-tagline: # it will display as the subtitle
+tagline: Senior Solutions Architect · Auckland, NZ
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Jesuino Azevedo, Senior Solutions Architect in Auckland, New Zealand. Energy,
+  utilities and critical infrastructure. Vector x Alphabet X digital grid
+  architecture, hands-on AI builds, 20+ years of technology leadership.
 
 #
 # Fill in the protocol & hostname for your site.
@@ -29,7 +31,7 @@ url: "https://jesuinoazevedo.com"
 favicon: /assets/img/favicon.ico
 
 github:
-  username: xpto2000 # <-- FILLED IN: your GitHub username
+  username: jesuinoazevedo # <-- FILLED IN: your GitHub username
 
 social:
   # Change to your full name.
@@ -38,7 +40,7 @@ social:
   email: jesuino.azevedo@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/xpto2000
+    - https://github.com/jesuinoazevedo
     - https://www.linkedin.com/in/jesuinoazevedo
 
 # Site Verification Settings

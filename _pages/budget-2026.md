@@ -27,6 +27,6 @@ Built on top of a generic RAG (Retrieval-Augmented Generation) document assistan
 
 **Tech stack:** Streamlit · OpenAI embeddings · Qdrant vector store · Anthropic Claude Haiku 4.5
 
-[View source on GitHub](https://github.com/xpto2000/Budget-2026-AI-Assistant)
+[View source on GitHub](https://github.com/jesuinoazevedo/Budget-2026-AI-Assistant)
 
 > ⚠️ **Disclaimer:** Independent project, not affiliated with the NZ Treasury or Government. Verify against source documents.

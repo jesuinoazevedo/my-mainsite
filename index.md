@@ -12,7 +12,7 @@ I specialise in building **Architecture Runways** that translate complex innovat
 
 Most recently I led solution architecture for the **Vector–Alphabet X (Google) energy platform** partnership in New Zealand, defining the architecture runway and non-functional requirements for next-generation grid infrastructure.
 
-During a planned sabbatical I maintained hands-on technical currency — building AI agents, data pipelines, and cloud-native tools. I am now back in Auckland and actively looking for senior architecture roles in **finance, utilities, and logistics**.
+During a planned sabbatical I maintained hands-on technical currency, building AI agents, data pipelines, and cloud-native tools. I am now back in Auckland and actively looking for senior architecture roles in **utilities and energy, logistics, and finance**.
 
 📩 [jesuino.azevedo@gmail.com](mailto:jesuino.azevedo@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jesuinoazevedo/){:target="_blank"} &nbsp;·&nbsp; [Download CV](/assets/files/Jesuino-Azevedo-Solutions-Architect-CV.pdf)
 
@@ -34,7 +34,7 @@ During a planned sabbatical I maintained hands-on technical currency — buildin
 ## Selected Highlights
 
 **Vector – Alphabet X (Google)**
-Defined the architecture runway and NFRs for New Zealand's electricity digital twin platform, one of the country's most advanced energy innovation programmes.
+Defined the architecture runway and NFRs for New Zealand's electricity digital grid platform, one of the country's most advanced energy innovation programmes.
 
 **Enterprise Platform Architecture**
 Architected Salesforce + SAP + web + field data ecosystems achieving 95%+ customer satisfaction and 50% reduction in lead conversion cost.

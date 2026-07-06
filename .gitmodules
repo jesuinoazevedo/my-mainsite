@@ -3,4 +3,4 @@
 	url = https://github.com/cotes2020/chirpy-static-assets.git
 [submodule "orbital-flight-sim"]
 	path = orbital-flight-sim
-	url = https://github.com/xpto2000/orbital-flight-sim.git
+	url = https://github.com/jesuinoazevedo/orbital-flight-sim.git

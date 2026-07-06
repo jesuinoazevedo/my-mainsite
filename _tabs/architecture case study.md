@@ -116,7 +116,7 @@ You can explore the repository to:
 - learn how to publish using GitHub Pages  
 
 **Source code:**  
-<https://github.com/xpto2000/my-mainsite>
+<https://github.com/jesuinoazevedo/my-mainsite>
 
 ---
 

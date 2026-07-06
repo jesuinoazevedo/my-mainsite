@@ -14,7 +14,7 @@ I took a deliberate break after 20 years of sustained delivery. I travelled acro
 - Built and deployed a working [ RAG Document Assistant ](/projects/#-ai-rag-document-assistant) using OpenAI and Anthropic APIs, Qdrant vector search, and Streamlit Cloud. Covers ingestion, embeddings, retrieval, and grounded generation. 
 - Built and deployed a functional [AI Finance Agent](https://jesuinoazevedo.com/projects/#-ai-finance-agent-nz) using CrewAI, Groq LLM, Pandas, and Streamlit. End-to-end AI pipeline.
 - Ad-hoc advisory to early-stage ventures on cloud architecture and MVP platform design (AWS, microservices).
-- Built and maintain this site using Jekyll and GitHub Pages. Code at github.com/xpto2000.
+- Built and maintain this site using Jekyll and GitHub Pages. Code at github.com/jesuinoazevedo.
 
 ---
 
@@ -24,7 +24,7 @@ I took a deliberate break after 20 years of sustained delivery. I travelled acro
 I led solution architecture for Vector's partnership with Alphabet X (Google) on next-generation electricity grid platforms. Worked across cloud, integration, and data layers in a regulated, critical infrastructure environment.
 
 - Defined target architectures, integration patterns, and non-functional requirements across cloud and enterprise systems.
-- Established the architecture runway and NFRs for New Zealand's electricity digital twin platform.
+- Established the architecture runway and NFRs for New Zealand's electricity digital grid platform.
 - Worked across multiple value streams, aligning business, engineering, and risk stakeholders to enable effective delivery.
 - Contributed to modernisation of legacy platforms, supporting cloud adoption and improved system integration.
 - Mentored engineering teams and supported executive technology decision-making.
