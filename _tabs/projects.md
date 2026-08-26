@@ -8,6 +8,8 @@ order: 3
 
 A mix of hands-on AI builds and enterprise architecture work. I use these projects to stay current, test ideas properly, and apply the same thinking I use in large programmes at a smaller scale.
 
+The code presented here is free to download from my [GitHub page](https://github.com/jesuinoazevedo/){:target="_blank"}.
+
 ---
 
 ## 🤖 AI RAG Document Assistant
@@ -77,13 +79,6 @@ End-to-end AI pipeline. Real data, real outputs. Same patterns used in enterpris
 </div>
 
 **Tech stack:** Python, CrewAI, Groq LLM, Pandas, Streamlit, Plotly
-
-<div style="margin: 1.5em 0; display: flex; gap: 14px; flex-wrap: wrap;">
-  <a href="https://github.com/jesuinoazevedo/" target="_blank"
-     style="background: #333; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
-    📁 GitHub
-  </a>
-</div>
 
 ---
 
