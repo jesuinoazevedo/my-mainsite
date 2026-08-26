@@ -10,6 +10,21 @@ A mix of hands-on AI builds and enterprise architecture work. I use these projec
 
 ---
 
+## 🧠 Ask questions from real documents
+
+Ask questions directly against trusted documents. No manual searching.
+
+Use a curated Reserve Bank of New Zealand dataset, or upload your own PDFs. The assistant retrieves relevant content and answers with sources.
+
+<div style="margin: 1.4em 0;">
+  <a href="https://ai-rag-document-assistant.streamlit.app/" target="_blank"
+     style="background: #1a73e8; color: white; padding: 10px 22px; border-radius: 6px; text-decoration: none; font-weight: bold;">
+    🚀 Try the AI RAG Document Assistant
+  </a>
+</div>
+
+---
+
 ## 🤖 AI RAG Document Assistant
 **Personal Project · 2025–2026**
 
@@ -37,9 +52,9 @@ This is applied AI engineering. Ingestion, embeddings, retrieval, prompting, and
 **Tech stack:** Python, Streamlit, Qdrant, OpenAI, Anthropic, Docker, Streamlit Cloud
 
 <div style="margin: 1.2em 0;">
- <a href="https://github.com/jesuinoazevedo/" target="_blank"
-     style="background: #333; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
-    📁 GitHub
+  <a href="https://ai-rag-document-assistant.streamlit.app/" target="_blank"
+     style="background: #1a73e8; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
+    🚀 Live App
   </a>
 </div>
 
@@ -86,6 +101,10 @@ End-to-end AI pipeline. Real data, real outputs. Same patterns used in enterpris
 **Tech stack:** Python, CrewAI, Groq LLM, Pandas, Streamlit, Plotly
 
 <div style="margin: 1.5em 0; display: flex; gap: 14px; flex-wrap: wrap;">
+  <a href="https://ai-finance-agent-nz.streamlit.app/" target="_blank"
+     style="background: #1a73e8; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
+    🚀 Live Demo
+  </a>
   <a href="https://github.com/jesuinoazevedo/" target="_blank"
      style="background: #333; color: white; padding: 9px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
     📁 GitHub
@@ -132,7 +151,7 @@ Shows core engineering fundamentals. Physics, modelling, and performance. Differ
 ## Professional Projects
 
 ## ⚡ Vector – Alphabet X Energy Platform
-**Solutions Architecture Lead · 2021–2023**
+**Solutions Architect · Mar 2021–Aug 2023**
 
 Led architecture for a digital platform supporting an energy innovation programme with Alphabet X.
 
@@ -165,10 +184,10 @@ Designed and implemented delivery and operating model changes.
 
 ---
 
-## 🧪 Early-Stage Architecture & Startup Advisory
-**2023–Present**
+## 🧪 Independent Architecture & Startup Advisory
+**Sep 2023–Apr 2026**
 
-Working with small teams on early architecture decisions.
+Advised small teams on early architecture decisions.
 
 Focus on getting to MVP without creating future problems.
 
